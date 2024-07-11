@@ -119,18 +119,19 @@ background-size: cover;
 #produtos1{
 display: grid;
 grid-template-columns: 20% 1fr 1fr 1fr 1fr 20%;
-grid-template-rows: 25vh;
+grid-template-rows: 30vh;
 padding-top: 2vh;
 padding-bottom: 2vh;
 }
 
 #p1{
 border: 1px solid;
-  background-image: url(fotos/);
+  background-image: url(fotos/amendobobo.jpg);
 }
 
 #p2{
 border: 1px solid;
+
 }
 
 #p3{
@@ -152,12 +153,12 @@ padding-right: 40%;
 #produtos2{
 display: grid;
 grid-template-columns: 20% 1fr 1fr 1fr 1fr 20%;
-grid-template-rows: 25vh 10vh 25vh 10vh;
+grid-template-rows: 30vh 10vh 30vh 10vh;
 }
 
 #fotos{
 padding-top: 10vh;
 display: grid;
 grid-template-columns: 20% 1fr 1fr 20%;
-grid-template-rows: 25vh;
+grid-template-rows: 30vh;
 }
