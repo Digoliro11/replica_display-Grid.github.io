@@ -67,7 +67,7 @@ text-align: center;
 padding-top: 1vh;
 display: grid;
 grid-template-columns: 20% 14% 26% 20%;
-grid-template-rows: 80px 80px 400px;
+grid-template-rows: 60px 80px 450px;
 }
 
 .main > div:nth-child(3){
@@ -114,6 +114,9 @@ background-image: url(fotos/banner.jpg);
 background-repeat: no-repeat;
 background-position: 70% right;
 background-size: cover;
+text-align: left;
+padding-top: 10vh;
+padding-left: 5vw;
 }
 
 #produtos1{
@@ -131,15 +134,20 @@ border: 1px solid;
 
 #p2{
 border: 1px solid;
+  background-image: url(fotos/laranja.jpg);
 
 }
 
 #p3{
 border: 1px solid;
+  background-image: url(fotos/carne.jpg);
+
 }
 
 #p4{
 border: 1px solid;
+  background-image: url(fotos/sacola.jpg);
+
 }
 
 #categorias{
@@ -161,4 +169,34 @@ padding-top: 10vh;
 display: grid;
 grid-template-columns: 20% 1fr 1fr 20%;
 grid-template-rows: 30vh;
+}
+
+#verde{
+  background-color: #7fad39;
+  width: 7vw;
+  color: white;
+}
+
+#texto_verde{
+  color: #7fad39;
+}
+
+#navegacao{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5vw;
+  width: 50%;
+}
+
+#rodape-baixo{
+  background-color: rgb(245, 245, 245);
+  height: 45vh;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+  color: #555555;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: 0%;
 }
